@@ -1,0 +1,18 @@
+@import "../../../global.module.scss";
+
+.button{
+    font-size:1.3rem;
+    padding: 0.25rem;
+    &.disabled{
+        color: grey;
+        &:hover{
+            cursor:default;
+            border-color:transparent;
+            color: grey;
+
+        }
+    }
+    &:hover{
+        cursor:pointer;
+    }
+}

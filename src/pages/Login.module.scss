@@ -1,0 +1,39 @@
+@import '../global.module.scss';
+
+.container{
+    display:flex;
+    flex-direction:row;
+    & .container__form{
+        flex-wrap:wrap;
+        align-items: center;
+        width: 100%;
+        background-color:white;
+        justify-content: center;
+        display: flex;
+    }
+    & .container__sidebar{
+        display: block;
+        height: 100vh;
+        width:0%;
+        background-color: white;
+    }
+
+    & .image{
+        width:0px;
+        height: 100%;
+        background-position: left;
+        background-image: url('../../public/assets/images/courier-sidebar.jpg' );
+
+    }
+
+    @media screen and (min-width: 1400px){
+        & .image{
+            width:800px;
+        }
+
+        & .container__sidebar{
+            width:800px;
+        }
+    }
+}
+

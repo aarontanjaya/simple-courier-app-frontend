@@ -1,0 +1,13 @@
+@import '../../../global.module.scss';
+
+.table{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #EDEDED;
+    & tr {
+        background-color: white;
+    }
+    & tr:nth-child(even) {
+        background-color: #F6F6F6;
+      }
+}

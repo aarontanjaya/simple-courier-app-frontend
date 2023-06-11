@@ -1,0 +1,36 @@
+@import "../../../global.module.scss";
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:2rem;
+}
+
+.btn__group{
+    margin: 0 auto;
+}
+
+.btn{
+    transition: transform 0.3s;
+    transition-timing-function: ease-in-out;
+    margin: 0 0.2rem;
+    border-style: solid;
+    background-color: transparent;
+    border-color: transparent;
+    transition-property: color, border-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    border-radius: 6px;
+    &:hover{
+        color: $blue-primary;
+        border-style: solid;
+        border-color: $blue-primary;
+    }
+}
+
+.active{
+    color: $blue-primary;
+    border-radius: 6px;
+    border-color: $blue-primary;
+    border-style: solid;
+}

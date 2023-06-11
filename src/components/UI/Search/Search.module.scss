@@ -1,0 +1,12 @@
+@import "../../../global.module.scss";
+
+
+.search{
+    color: $text-secondary;
+    background-color: $gray-secondary;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DADADA;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}

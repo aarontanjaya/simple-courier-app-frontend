@@ -1,0 +1,50 @@
+@import '../../global.module.scss';
+
+.card__container{
+    overflow: hidden;
+    padding: 1rem 2rem;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1rem auto;
+    animation: drop 0.4s;
+    .card__title{
+        display:flex;
+        justify-content: space-between;
+    }
+    & .recipient{
+        padding-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        & .phone{
+            font-weight:600;
+            color: $text-secondary;
+        }
+    }
+    & .footer{
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    & .button{
+        width: 100%;
+        border-color: green;
+        display: flex;
+        border-radius: 10px;;
+        & p{
+            padding-left: 1rem;
+        }
+    }
+}   
+
+.trash{
+    font-size: 1.5rem;
+}
+
+
+@keyframes drop {
+    0% { transform: translateY(-100px); }
+    100% { transform: none; }
+  }

@@ -1,0 +1,23 @@
+@import '../../global.module.scss';
+
+.form{
+    padding: 1.5rem;
+    width:600px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.btn__container{
+    padding:0.5rem;
+}
+
+.input__date{
+    border-radius: 5px;
+    padding: 0.7rem 1rem;
+    border-color: $gray-primary;
+    border-width: 1px;
+    width: 100%;
+    color: $text-secondary;
+}

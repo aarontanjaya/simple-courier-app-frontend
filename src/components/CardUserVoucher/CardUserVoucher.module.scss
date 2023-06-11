@@ -1,0 +1,54 @@
+@import '../../global.module.scss';
+
+.card__container{
+    overflow: hidden;
+    padding: 1rem 2rem;
+    width:80%;
+    min-width:500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1rem auto;
+    animation: drop 0.4s;
+    &.disabled:hover{
+        cursor: default;
+        transform: none;
+    }
+    &.disabled, &.disabled.active{
+        background:rgba(171, 161, 161, 0.7);
+    }
+    &:hover{
+        cursor:pointer;
+    }
+    .card__title{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .card__discount{
+        display:flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    & .footer{
+        padding-top: 1.5rem;
+        display: flex;
+        justify-content: right;
+    }
+
+    & .card__discount{
+        display:flex;
+        flex-direction: row;
+    }
+} 
+
+.card__container.active{
+    background-color: $green-primary;
+}
+
+
+@keyframes drop {
+    0% { transform: translateY(-100px); }
+    100% { transform: none; }
+  }

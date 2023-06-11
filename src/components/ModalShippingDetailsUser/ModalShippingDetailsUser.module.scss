@@ -1,0 +1,37 @@
+@import '../../global.module.scss';
+
+.footer{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    & .status{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.button{
+    width: 100px;
+    border-color: green;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;;
+    padding: 0.5rem;
+    text-decoration: none;
+    &:hover{
+        background-color: rgba(126, 222, 109, 0.5);
+        opacity: 1;
+    }
+}
+
+.content__item{
+    padding-top: 0.25rem;
+    & .content__item__title{
+        font-weight: bold;
+    }
+    display:flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+}

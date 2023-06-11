@@ -1,0 +1,14 @@
+@import '../../global.module.scss';
+
+.sum__container{
+    & .sum__item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 0.5rem;
+    }
+
+    & .total{
+        font-weight: bold;
+    }
+}

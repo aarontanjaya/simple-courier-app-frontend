@@ -1,0 +1,13 @@
+@import '../../../global.module.scss';
+
+.table__row{
+    border-color: #EDEDED;
+    border-style: solid;
+    border-width: 1px;
+    & .row__item{
+        border-color: #EDEDED;
+        border-style: solid;
+        border-width: 1px;
+        padding: 1rem;
+    }
+}

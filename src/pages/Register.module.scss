@@ -1,0 +1,44 @@
+@import '../global.module.scss';
+
+.container{
+    display:flex;
+    flex-direction:row;
+    & .title{
+        padding: 1.5rem 0.5rem;
+    }
+    & .container__form{
+        align-items: center;
+        height: 100vh;
+        width:100%;
+        background-color:white;
+        justify-content: center;
+        display: flex;
+    }
+    & .container__sidebar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 0px;
+        background-color: white;
+    }
+
+    & .image{
+        width:0px;
+        height: 100%;
+        background-position: right;
+        background-image: url('../../public/assets/images/register-sidebar.jpg' );
+    }
+
+    @media screen and (min-width: 1400px){
+        & .image{
+            width:800px;
+        }
+
+        & .container__sidebar{
+            width:800px;
+        }
+    }
+
+
+}

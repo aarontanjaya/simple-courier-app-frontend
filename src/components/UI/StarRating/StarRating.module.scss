@@ -1,0 +1,14 @@
+@import "../../../global.module.scss";
+
+.button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+.on span{
+color: #000;
+}
+.off span{
+color: #ccc;
+}

@@ -1,0 +1,17 @@
+@import '../../../global.module.scss';
+
+.table__header{
+    border-color: #EDEDED;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 3rem;
+
+    & .header__item{
+        border-color: #EDEDED;
+        border-style: solid;
+        border-width: 1px;
+        padding: 1rem;
+        padding-right: 2.5rem;
+        text-align: left;
+    }
+}

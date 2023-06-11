@@ -1,0 +1,88 @@
+@import '../global.module.scss';
+
+@import '../global.module.scss';
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    & .table__container{
+        margin: 0 auto;
+        display: flex;
+        width: 600px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    & .table__header{
+        border-radius: 10px 10px 10px 10px;
+        background-color: black;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        row-gap:1rem;
+        align-items: center;
+        justify-content: center;
+        padding-right: 2rem;
+        & .datepicker{
+            border-radius: 4px;
+            padding: 0.5rem 0.25rem;
+
+        }
+        & .reset{
+            font-size:3rem;
+            color:white;
+            & .icon path{
+                color:white;
+            }
+        }
+        & .search{
+            margin-right: 1rem;
+        }
+    }
+
+    & .table__content{
+        justify-content: center;
+        border-style: none;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        & .table{
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
+@media screen and (min-width:800px){
+    .container{
+        & .table__container{
+            width: 800px;
+        }
+        & .table__header{
+            display:flex;
+            justify-content: space-between;
+            flex-direction: row;
+            column-gap:1.5rem;
+        }
+    }
+
+
+}
+@media screen and (min-width: 1000px){
+    .container{
+        & .table__container{
+            width: 1000px;
+        }
+        & .table__header{
+            display:flex;
+            justify-content: space-between;
+            flex-direction: row;
+            column-gap:1.5rem;
+        }
+    }
+
+
+}

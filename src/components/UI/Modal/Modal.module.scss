@@ -1,0 +1,30 @@
+@import "../../../global.module.scss";
+
+.background{
+    position:fixed;
+    left:0;
+    top:0;
+    height:100vh;
+    width:100vw;
+    z-index: 1;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: fixed;
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: drop 0.4s ease-in-out
+}
+
+@keyframes drop {
+    0% { top:-300px; }
+
+    100% { top:50%; }
+  }

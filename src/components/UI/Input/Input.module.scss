@@ -1,0 +1,14 @@
+@import "../../../global.module.scss";
+
+.input{
+    border-radius: 5px;
+    padding: 0.7rem 1rem;
+    border-color: $gray-primary;
+    border-width: 1px;
+    color: $text-secondary;
+}
+
+.error{
+    color:red;
+    padding-top: 0.5rem;
+}

@@ -1,0 +1,11 @@
+@import "../../../global.module.scss";
+
+.form__item{
+    padding: 0.5rem 0.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    & Label{
+        padding: 0.5rem 0;
+    }
+}

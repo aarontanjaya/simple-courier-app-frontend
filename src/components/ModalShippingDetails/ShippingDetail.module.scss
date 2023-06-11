@@ -1,0 +1,11 @@
+@import '../../global.module.scss';
+
+.content__item{
+    padding-top: 0.25rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.content__item__title{
+    font-weight: bold;
+}

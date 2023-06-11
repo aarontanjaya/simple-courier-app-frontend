@@ -1,0 +1,63 @@
+@import '../../global.module.scss';
+
+.header{
+    text-align: right;
+}
+
+.title{
+    text-align: left;
+}
+
+.content__container{
+    overflow: hidden;
+    padding: 1rem 2rem;
+    width:600px;;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1rem auto;
+    overflow:visible;
+    & h2, h3{
+        padding-bottom: 0.25rem;
+    }
+    & .content__title{
+        margin-top: 1rem;
+        display:flex;
+        justify-content: space-between;
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: grey;
+    }
+    & .content__item{
+        padding-top: 0.25rem;
+        display:flex;
+        justify-content: space-between;
+        & .content__item__title{
+            font-weight: bold;
+        }
+
+    }
+    & .content__subitem{
+        padding-top: 0.25rem;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    & .content__details{
+        padding-top: 1rem;
+    }
+
+    & .recipient{
+        padding-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & .phone{
+            font-weight:600;
+            color: $text-secondary;
+        }
+    }
+
+}   
+

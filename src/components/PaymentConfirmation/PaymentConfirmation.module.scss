@@ -1,0 +1,36 @@
+@import '../../global.module.scss';
+
+.container{
+    width: 600px;
+    padding: 2rem;
+    &:hover{
+        transform: none;
+    }
+    & .btn__pay{
+        width:100%;
+    }
+    .sum__container{
+        & .voucher__button{
+            width: 100%;
+        }
+        & .header{
+            padding-bottom: 2rem;
+        }
+        & .sum__item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 0.5rem;
+        }
+    
+        & .subtitle{
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (min-width:800px){
+    .container{
+        width: 800px
+    }
+}

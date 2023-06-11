@@ -1,0 +1,30 @@
+@import '../../global.module.scss';
+
+.navbar__list{
+    padding: 1rem 0;
+    a{
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        &:hover{
+            color: grey;
+        }
+    }
+
+    li{
+        padding: 0.25rem 0;
+    }
+    
+
+}
+
+.logo{
+    color:white;
+    &:hover{
+        color: grey;
+    }
+}
+
+.menu__icon{
+    font-size: 1.5rem;
+}

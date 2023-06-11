@@ -1,0 +1,9 @@
+@import '../global.module.scss';
+
+.container{
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

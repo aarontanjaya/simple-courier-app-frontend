@@ -1,0 +1,23 @@
+@import '../../global.module.scss';
+
+.table__container{
+    margin: 2rem;
+    & .table__content{
+        width:700px;
+        height:600px;
+        overflow-y:scroll;
+    }
+
+    & .table__header{
+        border-radius: 10px 10px 10px 10px;
+        background-color: black;
+        padding: 1rem;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & .search{
+            margin-right: 1rem;
+        }
+    }
+}
